@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-center
+  datasource:
+    url: jdbc:mysql://zhexueqi.top:3306/user_center?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: zhexueqi
+    password: Hwc123.@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  session:
+    timeout: 86400
+
